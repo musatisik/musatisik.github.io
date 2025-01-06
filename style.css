@@ -46,3 +46,22 @@ p {
 img + p {
     margin-top: 20px;
 }
+/* YouTube linkini buton olarak stilize etme */
+.youtube-button {
+  background-color: #ff0000;  /* YouTube'un kırmızı rengi */
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px; /* Butonun üstüne boşluk ekleyelim */
+  transition: background-color 0.3s ease;
+}
+
+/* Butona hover efekti */
+.youtube-button:hover {
+  background-color: #cc0000;
+}
+
