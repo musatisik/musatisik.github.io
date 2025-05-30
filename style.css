@@ -46,3 +46,14 @@ button:hover {
 #notForgive {
     position: relative;
 }
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media a {
+        margin: 5px;
+    }
+}
