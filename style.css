@@ -1,67 +1,48 @@
-/* Genel Ayarlar */
 body {
+    background-color: #000;
+    color: white;
     font-family: 'Arial', sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
-    text-align: center;
-    color: #333;
-    background: linear-gradient(to bottom, #e6e6e6, #f2f2f2); /* Yumuşak degrade arka plan */
 }
 
-/* Başlık */
-h1 {
-    font-size: 3em;
-    color: #5e3c23;
-    margin-top: 30px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    font-weight: bold;
+.container {
+    margin-top: 50px;
 }
 
-/* Resim */
-img {
-    width: 70%; /* Resmin genişliği %70 */
-    max-width: 350px; /* Maksimum genişlik */
-    height: auto; /* Oranlı yükseklik */
-    margin: 30px 0;
-    border-radius: 15px; /* Yuvarlatılmış köşeler */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
-}
-
-/* Paragraf */
-p {
-    font-size: 1.2em;
-    line-height: 1.8;
-    color: #555;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: #fff;
+.center-image {
+    width: 300px;
+    height: auto;
     border-radius: 10px;
-    max-width: 800px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    margin-bottom: 30px;
+    border: 2px solid white;
 }
 
-/* Resim ve metin arasındaki boşluğu artır */
-img + p {
-    margin-top: 20px;
-}
-/* YouTube linkini buton olarak stilize etme */
-.youtube-button {
-  background-color: #ff0000;  /* YouTube'un kırmızı rengi */
-  color: white;
-  font-size: 18px;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 20px; /* Butonun üstüne boşluk ekleyelim */
-  transition: background-color 0.3s ease;
+h1 {
+    margin: 20px 0;
+    font-size: 32px;
 }
 
-/* Butona hover efekti */
-.youtube-button:hover {
-  background-color: #cc0000;
+.buttons {
+    margin: 20px;
 }
 
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#notForgive {
+    position: relative;
+}
